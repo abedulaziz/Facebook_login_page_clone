@@ -37,7 +37,6 @@ body {
 }
 
 .account .content .facebook-about .facebook-img img{
-  /* width: 100%; */
   height: 106px;
   margin: -28px;
 }
@@ -50,7 +49,6 @@ body {
 }
 
 /* registration section */
-
 
 .registration .form-wrapper {
   margin-top: 40px;
@@ -190,4 +188,23 @@ footer .content-wrapper .copy-right {
   color: gray;
   text-decoration: none;
   line-height: 16px;
+}
+
+/* media queries */
+
+@media (max-width: 870px) {
+
+  .account .container {
+    padding-bottom: 100px;
+  }
+
+  .account .content-wrapper .content {
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+  }
+
+  .account .content-wrapper .content .facebook-about {
+    width: auto;
+  }
 }
