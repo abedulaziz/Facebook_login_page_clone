@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-  padding-bottom: 132px;
+  padding-bottom: 232px;
   padding-top: 92px;
   min-width: 500px;
   display:flex;
@@ -25,15 +25,14 @@ body {
 
 .account .content {
   display: flex;
-  justify-content: space-between;
-  max-width: 80vw;
+  justify-content: space-between;  
 }
 
 .account .content .facebook-about {
   width: 50%;
 }
 
-.account .content .facebook-about .facebook-img{
+.account .content .facebook-about .facebook-img {
   padding: 112px 0 16px;
 }
 
@@ -138,4 +137,57 @@ body {
   color: #000;
   font-weight: bold;
   text-decoration: none;
+}
+
+/* footer */
+
+footer {
+  background-color: #FFF;
+  font-size: 11px;
+}
+footer .container {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+
+footer .content-wrapper {
+  padding-top: 20px;
+}
+
+footer .content {
+  max-width: 980px;
+}
+
+footer .content-wrapper .content ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer .content-wrapper ul li {
+  display: inline-block;
+  padding-right: 20px;
+  color: gray;
+}
+
+footer .content-wrapper ul li a {
+  color: gray;
+  text-decoration: none;
+  line-height: 16px;
+}
+
+
+footer .content-wrapper .separator {
+  height: 1px;
+  background-color: #d7d7d7;
+  margin: 10px 0 15px;
+}
+
+footer .content-wrapper .copy-right {
+  margin: 20px 0;
+  color: gray;
+  text-decoration: none;
+  line-height: 16px;
 }
