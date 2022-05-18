@@ -1,0 +1,141 @@
+:root {
+  --theme-color: #1877f2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f2f5;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+.container {
+  padding-bottom: 132px;
+  padding-top: 92px;
+  min-width: 500px;
+  display:flex;
+  justify-content: center;
+}
+
+.content-wrapper {
+  margin: 0 40px;
+}
+
+.account .content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 80vw;
+}
+
+.account .content .facebook-about {
+  width: 50%;
+}
+
+.account .content .facebook-about .facebook-img{
+  padding: 112px 0 16px;
+}
+
+.account .content .facebook-about .facebook-img img{
+  /* width: 100%; */
+  height: 106px;
+  margin: -28px;
+}
+
+.account .content .facebook-about p {
+  font-size: 24px;
+  /* line-height: 28px; */
+  
+  margin: 0;
+}
+
+/* registration section */
+
+
+.registration .form-wrapper {
+  margin-top: 40px;
+  width: 396px;
+  padding-bottom: 24px;
+  padding-top: 10px;
+  padding: 10px 20px 24px;
+  background-color: #FFF;
+  box-shadow: 1px 1px 17px #bebebe;
+  border-radius: 5px;
+}
+
+.registration .form-wrapper form > .user_input {
+  padding: 6px 0;
+}
+
+.registration .form-wrapper input {
+  width: 100%;
+  height: 45px;
+  padding:14px 16px;
+  color: #90949c;
+  font-size: 17px;
+  border-radius: 6px;
+  border: 1px solid rgb(207, 207, 207);
+  line-height: 16px;
+}
+
+.registration .form-wrapper form .login {
+  padding-top: 6px;
+}
+
+.registration .form-wrapper form .login button {
+  width: 100%;
+  height: 50px;
+  border: none;
+  font-weight: bold;
+  background-color: #1877f2;
+  color: #FFF;
+  border-radius: 6px;
+  font-size: 20px;
+}
+
+.registration .form-wrapper form .forgotten_pass {
+  text-align: center;
+  color: #1877f2;
+  font-size: 15px;
+}
+
+.registration .form-wrapper form .forgotten_pass a {
+  text-decoration: none;
+}
+
+
+.registration .form-wrapper form .separator >div {
+  height: 1px;
+  background-color: #dadde1;
+  margin: 20px 0;
+}
+
+.registration .form-wrapper form .new_account {
+  display: flex;
+  justify-content: center;
+  padding-top: 6px;
+}
+
+.registration .form-wrapper form .new_account button {
+  height: 49px;
+  border: none;
+  border-radius: 6px;
+  color: #FFF;
+  width: 200px;
+  background-color: #42b72a;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.registration  .create_page {
+  text-align: center;
+  margin: 28px 0 0;
+  font-size: 14px;
+}
+
+.registration .create_page a {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
